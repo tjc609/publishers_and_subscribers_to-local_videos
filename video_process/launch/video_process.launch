@@ -1,0 +1,4 @@
+<launch>
+    <node name="image_publisher" pkg="video_process" type="test_image_publisher" output="screen"/>
+    <node name="image_subscriber" pkg="video_process" type="test_image_subscriber" output="screen"/>
+</launch>
